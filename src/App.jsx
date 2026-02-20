@@ -345,7 +345,6 @@ const globalStyles = `
 /* ═══════════════════════════════════════════════════
    PIXEL BLAST — now in terracotta/teal palette
 ═══════════════════════════════════════════════════ */
-const SHAPE_MAP = { square: 0, circle: 1, triangle: 2, diamond: 3 };
 const MAX_CLICKS = 10;
 const VERTEX_SRC = `void main() { gl_Position = vec4(position, 1.0); }`;
 const FRAGMENT_SRC = `
